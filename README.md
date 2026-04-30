@@ -3,8 +3,6 @@
 <p align="center">
   <img src="logo.svg" alt="GCE Answers Logo" width="450">
   <br>
-  <img src="camgceb.svg" alt="Cameroon GCE Board Logo" width="280" style="opacity: 0.8;">
-  <br>
   <strong>A window into the future of academic collaboration in Cameroon.</strong>
   <br>
   <a href="https://gceanswers.com/">🌐 Live Platform: gceanswers.com</a>
@@ -13,6 +11,11 @@
 > [!IMPORTANT]
 > **Disclaimer**: This is a community-driven project and is **not** an official platform of the Cameroon General Certificate of Education (GCE) Board.
 
+<p align="center">
+  <img src="logo.svg" alt="GCE Answers Logo" width="450">
+  <br>
+  <img src="camgceb.svg" alt="Cameroon GCE Board Logo" width="280" style="opacity: 0.8;">
+</p>
 ---
 
 ## 📑 Table of Contents

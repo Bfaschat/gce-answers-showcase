@@ -1,0 +1,22 @@
+<svg viewBox="0 0 560 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="book-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgb(59, 130, 246)" />
+      <stop offset="100%" stop-color="rgb(96, 165, 250)" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(-10, -19) scale(1.36)">
+    <path d="M 50 85 L 50 35 C 35 25, 15 30, 15 40 L 15 85 C 25 75, 40 75, 50 85 Z" fill="#0A2540" />
+    <path d="M 50 85 L 50 35 C 65 25, 85 30, 85 40 L 85 80 L 100 95 L 80 83 C 70 78, 60 80, 50 85 Z" fill="url(#book-gradient)" />
+    <path d="M 50 35 L 50 85" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+  </g>
+  <text x="125" y="55" font-family="Outfit, sans-serif" font-weight="900" font-size="55" fill="rgb(59, 130, 246)" letter-spacing="2">GCE ANSWERS</text>
+  <text x="180" y="103" font-family="Outfit, sans-serif" font-weight="700" font-size="38" fill="rgb(59, 130, 246)" letter-spacing="6">COMMUN</text>
+  <g transform="translate(383, 63) scale(0.43)">
+    <path d="M 35 45 L 55 45 L 50 95 L 40 95 Z" fill="rgb(59, 130, 246)" />
+    <path d="M 30 40 L 60 40 L 55 45 L 35 45 Z" fill="rgb(59, 130, 246)" />
+    <path d="M 45 10 C 60 10, 65 30, 45 40 C 25 30, 30 10, 45 10 Z" fill="rgb(96, 165, 250)" />
+    <path d="M 45 20 C 53 20, 55 30, 45 35 C 35 30, 37 20, 45 20 Z" fill="rgb(96, 165, 250)" />
+  </g>
+  <text x="417" y="103" font-family="Outfit, sans-serif" font-weight="700" font-size="38" fill="rgb(59, 130, 246)" letter-spacing="6">TY</text>
+</svg>

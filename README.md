@@ -1,53 +1,66 @@
 # GCE Answers Showcase
 
 <p align="center">
-  <img src="logo.svg" alt="GCE Answers Logo" width="400">
+  <img src="logo.svg" alt="GCE Answers Logo" width="450">
   <br>
-  <strong>A modern, community-driven platform for GCE & TVEE exam preparation.</strong>
-</p>
-
-<p align="center">
-  <img src="camgceb.svg" alt="Cameroon GCE Board Logo" width="300" style="opacity: 0.8;">
+  <img src="camgceb.svg" alt="Cameroon GCE Board Logo" width="280" style="opacity: 0.8;">
+  <br>
+  <strong>A window into the future of academic collaboration in Cameroon.</strong>
 </p>
 
 ---
 
-### What is GCE Answers?
+### Welcome to the GCE Answers Showcase
 
-GCE Answers is a social learning ecosystem built to help students in Cameroon excel in their GCE and TVEE examinations. It combines the structured Q&A format of sites like StackOverflow with a social, gamified experience tailored for our local curriculum.
+This repository serves as the public landing page and documentation hub for the **GCE Answers** platform. While the core source code remains private to protect our custom infrastructure, we use this space to share our vision, technical direction, and development roadmap with the community.
 
-**Note**: This repository serves as a public showcase for the project's documentation and branding. The core application source code remains private.
+GCE Answers is a social learning ecosystem built specifically for students and teachers navigating the GCE O/L, A/L, and TVEE curricula.
 
 ---
 
-### Core Platform Features
+### Platform Highlights
 
-*   **Academic Q&A**: Support for complex math/science formulas (KaTeX) and code highlighting.
-*   **Reputation & Badges**: A gamified system that rewards high-quality participation and helpfulness.
-*   **Verified Mentors**: A verification system for teachers and subject matter experts.
-*   **Resource Library**: Dedicated areas for sharing revision notes and past papers.
-*   **Real-time Interaction**: Peer-to-peer messaging and instant notifications.
+| Feature | What makes it special? |
+| :--- | :--- |
+| **Academic Q&A** | Built-in support for math/science formulas (KaTeX) and code. |
+| **Gamification** | 80+ unique badges and a reputation system that rewards helpfulness. |
+| **Verified Tutors** | Trust indicators for real-world educators and mentors. |
+| **Real-time Hub** | Peer-to-peer messaging and instant notifications for active study. |
+
+---
+
+### Current Roadmap
+
+We are continuously evolving. Here is what we are working on:
+
+| Milestone | Status | Description |
+| :--- | :---: | :--- |
+| **Core Q&A Engine** | ✅ | Threading, voting, and accepted answers are live. |
+| **Monorepo Migration** | ✅ | Successfully moved to Next.js 15 and Kysely. |
+| **Badge Automation** | 🚧 | Building the backend logic for automated awards. |
+| **Syllabus Mastery** | 🚧 | Designing the student progress dashboard. |
+| **Search v2** | 🗓️ | Global full-text search is on the horizon. |
 
 ---
 
 ### The Tech Stack
 
-The project is built using a modern, performant architecture:
+We believe in using the best tools for the job. Our private codebase leverages:
 
-*   **Framework**: Next.js 15, React 19, and Tailwind CSS 4.
-*   **Data Layer**: Kysely + PostgreSQL for a robust, type-safe backend.
-*   **Infrastructure**: Redis for caching and Turborepo for monorepo management.
+- **Framework**: Next.js 15 & React 19
+- **Styling**: Tailwind CSS 4
+- **Database**: Kysely + PostgreSQL
+- **Real-time**: Upstash Redis
+- **Tooling**: Turborepo & TypeScript
 
 ---
 
-### Repository Overview
+### Documentation Resources
 
-This showcase repo contains the public-facing documentation for the GCE Answers project. 
-
-- `README.md`: Project overview and mission.
-- `logo.svg`: Official community branding.
+- `README.md`: You are here. A high-level project overview.
+- `logo.svg`: Official GCE Answers community branding.
 - `camgceb.svg`: Secondary branding for the Cameroon GCE Board.
 
 ---
 
-Built for the future of education in Cameroon.
+Built with ❤️ for the future of education in Cameroon.

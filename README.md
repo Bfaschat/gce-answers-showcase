@@ -6,61 +6,79 @@
   <img src="camgceb.svg" alt="Cameroon GCE Board Logo" width="280" style="opacity: 0.8;">
   <br>
   <strong>A window into the future of academic collaboration in Cameroon.</strong>
+  <br>
+  <a href="https://gceanswers.com/">🌐 Live Platform: gceanswers.com</a>
 </p>
 
----
-
-### Welcome to the GCE Answers Showcase
-
-This repository serves as the public landing page and documentation hub for the **GCE Answers** platform. While the core source code remains private to protect our custom infrastructure, we use this space to share our vision, technical direction, and development roadmap with the community.
-
-GCE Answers is a social learning ecosystem built specifically for students and teachers navigating the GCE O/L, A/L, and TVEE curricula.
+> [!IMPORTANT]
+> **Disclaimer**: This is a community-driven project and is **not** an official platform of the Cameroon General Certificate of Education (GCE) Board.
 
 ---
 
-### Platform Highlights
-
-| Feature | What makes it special? |
-| :--- | :--- |
-| **Academic Q&A** | Built-in support for math/science formulas (KaTeX) and code. |
-| **Gamification** | 80+ unique badges and a reputation system that rewards helpfulness. |
-| **Verified Tutors** | Trust indicators for real-world educators and mentors. |
-| **Real-time Hub** | Peer-to-peer messaging and instant notifications for active study. |
-
----
-
-### Current Roadmap
-
-We are continuously evolving. Here is what we are working on:
-
-| Milestone | Status | Description |
-| :--- | :---: | :--- |
-| **Core Q&A Engine** | ✅ | Threading, voting, and accepted answers are live. |
-| **Monorepo Migration** | ✅ | Successfully moved to Next.js 15 and Kysely. |
-| **Badge Automation** | 🚧 | Building the backend logic for automated awards. |
-| **Syllabus Mastery** | 🚧 | Designing the student progress dashboard. |
-| **Search v2** | 🗓️ | Global full-text search is on the horizon. |
+## 📑 Table of Contents
+- [Showcase Overview](#-showcase-overview)
+- [Mission & Vision](#-mission--vision)
+- [Key Platform Features](#-key-platform-features)
+- [Development Roadmap](#-development-roadmap)
+- [The Modern Tech Stack](#-the-modern-tech-stack)
+- [Documentation & Branding](#-documentation--branding)
+- [License & Disclaimer](#-license--disclaimer)
 
 ---
 
-### The Tech Stack
+## 🔍 Showcase Overview
+This repository serves as the public landing page and documentation hub for **GCE Answers**. It highlights our vision, technical direction, and the progress of our platform while keeping the core application source code private.
 
-We believe in using the best tools for the job. Our private codebase leverages:
+---
 
+## 🎯 Mission & Vision
+Our mission is to provide every student in Cameroon with a high-quality, social, and accessible way to prepare for their exams. We are building a space where academic help is only a question away.
+
+---
+
+## 💡 Key Platform Features
+- **Academic Q&A**: Native support for math/science formulas (KaTeX).
+- **Gamification**: 80+ unique badges and a reputation system.
+- **Verified Expertise**: Trust indicators for real-world educators.
+- **Real-time Hub**: Peer-to-peer messaging and instant notifications.
+
+---
+
+## 🗺️ Development Roadmap
+
+Here is a look at what we've achieved and where we are heading next:
+
+### ✅ Completed
+- [x] **Next.js 15 & React 19**: Successfully moved to the latest web infrastructure.
+- [x] **Core Q&A Engine**: Threading, voting, and accepted answers are fully live.
+- [x] **Monorepo Architecture**: Efficient, type-safe development environment.
+- [x] **Unified Branding**: Established the GCE Answers and CGCEB dual branding.
+
+### 🚧 Future Milestones
+- [ ] **Badge Automation**: Transitioning the gamification logic to the backend.
+- [ ] **Syllabus Tracker**: Implementation of mastery dashboards for students.
+- [ ] **Search v2**: Global full-text search and advanced discovery.
+
+---
+
+## 🏗️ The Modern Tech Stack
+The private platform leverages the latest in web technology:
 - **Framework**: Next.js 15 & React 19
 - **Styling**: Tailwind CSS 4
 - **Database**: Kysely + PostgreSQL
 - **Real-time**: Upstash Redis
-- **Tooling**: Turborepo & TypeScript
 
 ---
 
-### Documentation Resources
-
-- `README.md`: You are here. A high-level project overview.
+## 📜 Documentation & Branding
+- `README.md`: High-level overview and mission.
 - `logo.svg`: Official GCE Answers community branding.
 - `camgceb.svg`: Secondary branding for the Cameroon GCE Board.
 
 ---
 
-Built with ❤️ for the future of education in Cameroon.
+## ⚖️ License & Disclaimer
+This documentation and branding are proprietary to **GCE Answers**. 
+
+---
+<p align="center">Made with ❤️ for the future of education in Cameroon.</p>

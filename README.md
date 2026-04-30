@@ -52,7 +52,7 @@ Our mission is to provide every student in Cameroon with a high-quality, social,
 Here is a look at what we've achieved and where we are heading next:
 
 ### ✅ Completed
-- [x] **Next.js 15 & React 19**: Successfully moved to the latest web infrastructure.
+- [x] **Next.js 16 & React 19**: Successfully moved to the latest web infrastructure.
 - [x] **Core Q&A Engine**: Threading, voting, and accepted answers are fully live.
 - [x] **Monorepo Architecture**: Efficient, type-safe development environment.
 - [x] **Unified Branding**: Established the GCE Answers and CGCEB dual branding.
@@ -66,7 +66,7 @@ Here is a look at what we've achieved and where we are heading next:
 
 ## 🏗️ The Modern Tech Stack
 The private platform leverages the latest in web technology:
-- **Framework**: Next.js 15 & React 19
+- **Framework**: Next.js 16 & React 19
 - **Styling**: Tailwind CSS 4
 - **Database**: Kysely + PostgreSQL
 - **Real-time**: Upstash Redis

@@ -5,7 +5,7 @@
   <br>
   <strong>Empowering the next generation of Cameroon's brightest minds.</strong>
   <br>
-  <a href="https://gceanswers.com/" rel="dofollow ">🌐 Live Platform: https://gceanswers.com</a>
+  <a href="https://gceanswers.com/" rel="dofollow ">🌐 Live Platform: gceanswers.com</a>
 </p>
 
 > [!IMPORTANT]
@@ -51,6 +51,10 @@ Every community (e.g., Mathematics, Biology) has its own unique visual identity,
 ### 🔍 Discovery & Search
 Our advanced discovery system allows students to find similar questions, related topics, and trending discussions across the entire platform instantly.
 
+### 🛡️ Privacy & Performance
+*   **Advanced Bot Governance**: Protects community data from AI scrapers while allowing discovery.
+*   **Real-time Presence**: Instant peer tracking and notifications across the platform.
+
 ---
 
 ## 🏆 The Trust & Reputation System
@@ -82,7 +86,7 @@ If you see a question you can answer, jump in! Helping others is the fastest way
 To maintain our "Sanctuary" status, all members must adhere to our core values:
 1.  **Academic Integrity**: No cheating, no "leaks," and no plagiarism.
 2.  **Mutual Respect**: We are a community of learners. Be kind and constructive.
-3.  **No Advertising**: Keep the space free of commercial spam and external group links.
+3.  **No Advertising**: No advertising of any kind is allowed. No spam, no external links, no promotions.
 4.  **Verified Sourcing**: Always cite your sources when providing complex academic data.
 
 ---

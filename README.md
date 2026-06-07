@@ -17,6 +17,7 @@
 - [The Mission](#-the-mission)
 - [Why We Exist: The Trust Crisis](#-why-we-exist-the-trust-crisis)
 - [Platform Features](#-platform-features)
+- [Recent Development Highlights](#-recent-development-highlights)
 - [The Trust & Reputation System](#-the-trust--reputation-system)
 - [How to Use GCE Answers](#-how-to-use-gce-answers)
 - [Community Guidelines](#-community-guidelines)
@@ -42,18 +43,42 @@ In Cameroon, students often navigate a digital landscape plagued by misinformati
 
 ### 🎓 Academic Q&A Hub
 A specialized forum where every subject has its place. Whether it's Further Maths or History, questions are categorized and organized for easy discovery.
-*   **High-Fidelity Formulas**: Support for complex mathematical and scientific notation.
+*   **High-Fidelity Formulas**: Support for complex mathematical and scientific notation (KaTeX + MathJax).
 *   **Accepted Answers**: The community identifies the most accurate solution, which is pinned to the top for everyone to see.
+*   **Rich Content & Media**: Support for images, PDFs, videos, and structured posts.
 
 ### 🏛️ Community Branding
 Every community (e.g., Mathematics, Biology) has its own unique visual identity, theme, and dedicated space, making it feel like a specialized department in a digital school.
 
 ### 🔍 Discovery & Search
-Our advanced discovery system allows students to find similar questions, related topics, and trending discussions across the entire platform instantly.
+Our advanced discovery system allows students to find similar questions, related topics, and trending discussions across the entire platform instantly. Includes powerful sitemaps for SEO.
 
-### 🛡️ Privacy & Performance
+### 💬 Real-time Collaboration & Chat
+*   Real-time presence, notifications, and messaging.
+*   Private 1:1 conversations and study groups.
+*   E2EE options for sensitive discussions in some contexts.
+
+### 🛡️ Privacy, Performance & SEO
 *   **Advanced Bot Governance**: Protects community data from AI scrapers while allowing discovery.
 *   **Real-time Presence**: Instant peer tracking and notifications across the platform.
+*   Optimized sitemaps (dynamic rendering, direct DB queries, no over-caching) for excellent search engine visibility.
+
+### 👑 Administrative Tools
+Powerful staff and admin interfaces for moderation, user management, and platform oversight, integrated seamlessly with the community UI.
+
+---
+
+## 🚀 Recent Development Highlights
+
+Recent work on the platform (see the main `bfas` source repository) includes:
+
+*   **Enhanced Admin Experience**: Added a dedicated "Admin / Staff" panel to the user dropdown navigation. The ForumAdmin dashboard is now wrapped in community providers for consistent theming/auth. Fixed unauthorized redirect issues by properly handling authentication loading states. Includes support for administrative auth bypasses for staff.
+*   **Expanded About Section**: New **Leadership page** in the About section. Auto-scrolling sub-navigation and refreshed UI color schemes across Forum and About pages.
+*   **SEO & Infrastructure Improvements**: Major sitemap refactors — forced dynamic rendering (reading request headers), removal of cache directives, migration of sitemap routes (boards, communities, etc.) to direct database queries (Kysely) instead of RPCs for better control and error handling. Updated community sitemaps to use `get_route_communities_directory` with robust error handling.
+*   **UI/UX Polish**: Reformat of template literals for readability, removal of unused constants, minor layout adjustments in Forum and About pages, and policies content updates.
+*   **Auth & Navigation**: Improvements to user dropdown logic and protected route handling for staff/admin roles.
+
+The source for these features lives in the primary `bfas` repository.
 
 ---
 
@@ -93,7 +118,7 @@ To maintain our "Sanctuary" status, all members must adhere to our core values:
 
 ## 👮 Moderation & Safety
 Our community is self-regulating but actively moderated. 
-*   **Staff Presence**: Global staff and community moderators ensure that rules are followed.
+*   **Staff Presence**: Global staff and community moderators ensure that rules are followed. Enhanced admin tooling (staff panel, dashboard) supports this.
 *   **Reporting**: Use the "Report" feature to flag misinformation or harassment immediately.
 *   **Gated Access**: Private or sensitive communities are restricted to ensure a safe learning environment.
 
@@ -101,6 +126,8 @@ Our community is self-regulating but actively moderated.
 
 ## 📧 Support & Feedback
 We are constantly evolving based on student needs. If you have suggestions or need support, visit our **Help Center** or use the contact links in the site footer.
+
+The full source code and ongoing development for GCE Answers is maintained in the companion `bfas` repository.
 
 ---
 <p align="center">
